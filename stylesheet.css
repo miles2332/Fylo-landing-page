@@ -1,0 +1,399 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Very Dark Blue: hsl(243, 87%, 12%)
+- Desaturated Blue: hsl(238, 22%, 44%)
+
+### Accent
+
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
+
+### Neutral
+
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+#### Headings, Call-to-actions, Header Navigation */
+
+/* 
+============
+TYPOGRAPHY
+============
+ */
+
+/* font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400, 700>;
+  font-style: normal; */
+
+/*  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+} */
+
+/* -SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+-Font sizes(px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* default is 16px --- 10px/16px=0.625 */
+  font-size: 62.5%;
+}
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: hsl(243, 87%, 12%);
+
+  /* max-width: 144rem; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.8rem 8rem 0rem 8rem;
+}
+.menu {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+}
+.main-nav-links:link,
+.main-nav-links:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-nav-links:hover,
+.main-nav-links:active {
+  opacity: 80%;
+}
+
+.container {
+  padding: 6.4rem 8rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  max-width: 50%;
+  padding-right: 4rem;
+}
+
+.main-illustration {
+  max-width: 100%;
+  padding: 5rem;
+}
+
+.heading-primary {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+.sub-text {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.productive {
+  background-color: hsl(240, 75%, 98%);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2rem;
+}
+
+.img-space {
+  max-width: 50%;
+}
+
+form {
+  display: flex;
+  gap: 1.8rem;
+  /* flex-direction: row; */
+}
+
+.input-box {
+  width: 50%;
+  padding: 1rem;
+  border-color: hsl(0, 0%, 75%);
+  border-radius: 4px;
+}
+
+.cta-btn {
+  width: 33%;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border-color: hsl(224, 93%, 58%);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  background-color: rgba(48, 101, 248, 0.85);
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.form-main input::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+
+.curve-bckgr {
+  width: 100%;
+  display: block;
+}
+
+.productive-text {
+  margin-bottom: 3rem;
+}
+.text-testimonial {
+  max-width: 50%;
+}
+.how-it-works:link,
+.how-it-works:visited {
+  color: hsl(170, 45%, 43%);
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  padding-bottom: 0.5rem;
+}
+
+.how-it-works:hover,
+.how-it-works:active {
+  color: rgba(60, 159, 143, 0.65);
+  border-bottom: 2px solid rgb(60, 159, 143, 0.65);
+}
+
+.arrow-symbol {
+  /* border-radius: 50%; */
+  /* color: white; */
+  /* background-color: rgba(60, 159, 143); */
+  /* padding: 0.3rem; */
+  font-size: 1.6rem;
+  margin-left: 0.8rem;
+}
+/* .how-it-works:hover .arrow-symbol {
+  color: white;
+  background-color: rgba(60, 159, 143, 0.65);
+} */
+
+.testimonial {
+  padding: 3rem;
+  max-width: 60%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.quotation-mark {
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-text {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.kyle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+.kyle-img {
+  width: 9%;
+  height: auto;
+  border-radius: 50%;
+}
+.testimonial-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.testimonial-title {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.cta {
+  display: flex;
+  background-color: hsl(238, 22%, 44%);
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.form-cta {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-text {
+  max-width: 33%;
+  color: white;
+}
+.heading-secondary {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.secondary {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.btn--2 {
+  width: 50%;
+}
+
+.form-cta .input-box {
+  width: 35rem;
+}
+.btn--2:hover,
+.btn--2:active {
+  background-color: rgba(48, 130, 248, 0.95);
+  border-color: rgba(48, 130, 248, 0.95);
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  max-width: 90%;
+}
+.footer-logo {
+  margin-bottom: 2.4rem;
+  /* scale: 0.5;
+  transform: translate(-60%); */
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.contact-info {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.footer-links {
+  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20rem;
+  row-gap: 2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: hsl(238, 22%, 44%);
+  transition: 300ms;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.sm-icon {
+  stroke: white;
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.9rem;
+}
+
+.sm-links:link,
+.sm-links:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.sm-links:hover .insta-icon,
+.sm-links:active .insta-icon {
+  color: #c13584;
+  border-color: #c13584;
+  transition: 300ms;
+}
+
+.sm-links:hover .fb-icon,
+.sm-links:active .fb-icon {
+  color: #4267b2;
+  border-color: #4267b2;
+  transition: 300ms;
+}
+
+.sm-links:hover .twitter-icon,
+.sm-links:active .twitter-icon {
+  color: #1da1f2;
+  border-color: #1da1f2;
+  transition: 300ms;
+}
