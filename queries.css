@@ -18,6 +18,9 @@
   .testimonial {
     max-width: 100%;
   }
+  .productive-sub-text {
+    max-width: 85%;
+  }
 }
 
 /* ********************
@@ -184,11 +187,11 @@
 }
 
 /* ********************
-  BELOW 360px
+  BELOW 370px
   ******************
   */
 
-@media (max-width: 23em) {
+@media (max-width: 23.4em) {
   .menu {
     display: block;
   }

@@ -196,6 +196,11 @@ form {
 .productive-text {
   margin-bottom: 3rem;
 }
+
+.productive-sub-text {
+  max-width: 75%;
+}
+
 .text-testimonial {
   max-width: 50%;
 }
