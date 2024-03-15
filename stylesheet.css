@@ -312,9 +312,8 @@ footer {
   max-width: 90%;
 }
 .footer-logo {
-  margin-bottom: 2.4rem;
-  /* scale: 0.5;
-  transform: translate(-60%); */
+  margin-bottom: 1.8rem;
+  max-width: 33%;
 }
 
 .footer-list {
