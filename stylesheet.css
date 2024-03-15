@@ -126,10 +126,13 @@ header {
   max-width: 50%;
   padding-right: 4rem;
 }
-
+.img-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-illustration {
-  max-width: 100%;
-  padding: 5rem;
+  max-width: 85%;
 }
 
 .heading-primary {
@@ -148,10 +151,6 @@ header {
   justify-content: center;
   /* align-items: center; */
   gap: 2rem;
-}
-
-.img-space {
-  max-width: 50%;
 }
 
 form {
@@ -198,7 +197,7 @@ form {
 }
 
 .productive-sub-text {
-  max-width: 75%;
+  max-width: 90%;
 }
 
 .text-testimonial {
