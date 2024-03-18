@@ -79,6 +79,12 @@
   .cta-text {
     max-width: 100%;
   }
+  .productive-sub-text {
+    max-width: 100%;
+  }
+  .footer-logo {
+    max-width: 100%;
+  }
 }
 
 /* ********************
@@ -91,7 +97,7 @@
     padding: 4.8rem 2.4rem 0rem 2.4rem;
   }
   .container {
-    padding: 6.4rem 2.4rem;
+    padding: 7.4rem 2.8rem;
   }
   .header-logo {
     max-width: 80%;
@@ -103,10 +109,12 @@
     flex-direction: column;
   }
   .form-cta .input-box {
-    width: 100%;
+    width: 80%;
+    align-self: center;
   }
   .btn--2 {
-    width: 100%;
+    width: 80%;
+    align-self: center;
   }
   .nav-links {
     gap: 1.2rem;
@@ -160,14 +168,15 @@
     gap: 5rem;
     /* padding-left: 3.2rem; */
   }
-  .footer-logo {
-    /* padding-left: 2.4rem; */
-  }
+
   .footer-links {
     grid-template-columns: 1fr;
   }
   .social-media-icons {
     align-self: center;
+  }
+  .footer.container {
+    padding-left: 3.4rem;
   }
 }
 
