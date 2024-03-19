@@ -227,6 +227,7 @@ form {
 }
 
 .testimonial {
+  background-color: hsl(0, 0%, 99.5%);
   padding: 3rem;
   max-width: 60%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
