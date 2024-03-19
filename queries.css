@@ -9,6 +9,12 @@
   }
 }
 
+@media (max-width: 72em) {
+  .cta {
+    gap: 6rem;
+  }
+}
+
 /* ********************
   BELOW 1024px/16 = 64em
   ******************
@@ -20,6 +26,15 @@
   }
   .productive-sub-text {
     max-width: 85%;
+  }
+  .cta {
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .form-cta .input-box {
+    width: 34rem;
   }
 }
 

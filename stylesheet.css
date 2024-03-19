@@ -266,8 +266,8 @@ form {
 .cta {
   display: flex;
   background-color: hsl(238, 22%, 44%);
-  justify-content: space-between;
-  gap: 3rem;
+  /* justify-content: space-between; */
+  gap: 24rem;
 }
 
 .form-cta {
@@ -291,10 +291,12 @@ form {
 
 .btn--2 {
   width: 50%;
+  height: 4.6rem;
 }
 
 .form-cta .input-box {
-  width: 35rem;
+  width: 54rem;
+  height: 4.6rem;
 }
 .btn--2:hover,
 .btn--2:active {
